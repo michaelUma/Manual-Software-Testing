@@ -1,0 +1,4 @@
+case_id,description,email,password_note,expected
+DATA-001,Valid synthetic registration,qa.user01@example.test,Use a generated test-only password,Account accepted
+DATA-002,Malformed email,not-an-email,Use a generated test-only password,Validation error
+DATA-003,Empty email,,No password,Required field error
